@@ -13,4 +13,9 @@
 ```git reset --hard HEAD^```
 - 使用```git reflog```获取操作日志引用
 
+### 管理修改
+git为什么比其他版本控制系统设计得更优秀，是因为Git跟踪并管理得是修改，而非文件
+
+### 查看文件内容
+```cat git-command.md```
 
