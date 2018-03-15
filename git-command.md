@@ -14,10 +14,14 @@
 在git中，用```HEAD```表示当前版本，上一个版本就是```HEAD^```，上上一个版本就是```HEAD^^```，往上100个版本就是```HEAD~100```
 ```git reset --hard HEAD^```
 - 使用```git reflog```获取操作日志引用
+- 撤销暂存区的修改：```git reset HEAD [file]```
 
 ### 管理修改
 git为什么比其他版本控制系统设计得更优秀，是因为Git跟踪并管理得是修改，而非文件
+- 撤销修改
+```git checkout -- [filename]```或者```git reset HEAD [file]```
 
 ### 查看文件内容
 ```cat git-command.md```
+
 
